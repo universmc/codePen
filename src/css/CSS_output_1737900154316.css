@@ -1,0 +1,53 @@
+/* 
+  Ceci est un exemple de code CSS généré automatiquement. 
+
+  Il peut être utilisé comme point de départ pour la création 
+  de styles personnalisés pour votre module.  Utilisez ce code 
+  comme base et modifiez-le en fonction de vos besoins spécifiques. 
+*/
+
+/* Général */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Entête */ 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+}
+
+/* Contenu */ 
+main {
+  padding: 2em;
+}
+
+/*  Liens */ 
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Réponse  */
+.response {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+/* 
+  N'oubliez pas: 
+  *  Adaptez les couleurs, polices et styles à votre goût.
+  *  Ajoutez des classes CSS spécifiques pour styler des éléments uniques.
+  *  Utilisez les techniques CSS modernes pour créer des designs plus avancés.
+*/ 

@@ -1,0 +1,29 @@
+{
+    "jobTitle": "Web Designer",
+    "summary": "Un web designer est responsable de la conception et de la création de l'apparence et de l'expérience utilisateur de sites web et d'applications interactives.",
+    "tasks": [
+        "Créer des designs adaptés aux objectifs et à l'identité visuelle de chaque projet",
+        "Concevoir des maquettes et des prototypes pour tester et valider les concepts",
+        "Développer des interfaces utilisateur conviviales, attractives et intuitives",
+        "Assurer l'accessibilité et la compatibilité des sites web sur différents dispositifs et navigateurs"
+    ],
+    "skills": [
+        "Connaissances en design graphique et conception d'interface utilisateur",
+        "Maîtrise des outils de conception numérique (Photoshop, Sketch, Figma, etc.)",
+        "Compétences en HTML, CSS et JavaScript",
+        "Sens de l'esthétique et de l'ergonomie, créativité et rigueur"
+    ],
+    "businessRules": [
+        "Respecter les chartes graphiques et les directives des clients en matière de style et de cohérence visuelle",
+        "Assurer une navigation fluide et efficace des utilisateurs sur les sites web et applications",
+        "Adapter les designs en fonction de l'accessibilité et de la compatibilité multi-dispositifs"
+    ],
+    "terminology": {
+        "UX": "Expression anglaise signifiant \"User eXperience\" (expérience utilisateur)",
+        "UI": "Expression anglaise signifiant \"User Interface\" (interface utilisateur)"
+    },
+    "notes": [
+        "Le web designer travaille en collaboration avec les développeurs, les UX designers et les chefs de projet.",
+        "Il est important pour un web designer de s'adapter aux nouvelles tendances et technologies web en constante évolution."
+    ]
+}

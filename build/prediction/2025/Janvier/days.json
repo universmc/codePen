@@ -1,0 +1,30 @@
+[
+{
+    "date": "2025-01-01",
+    "taches": [
+        {
+            "id": 1,
+            "description": "Tâche 1",
+            "duree_estimee": 60
+        }
+    ],
+    "features": {
+    },
+    "cible": {
+    }
+},
+{
+    "date": "2025-01-02",
+    "taches": [
+        {
+            "id": 1,
+            "description": "Tâche 1",
+            "duree_estimee": 60
+        }
+    ],
+    "features": {
+    },
+    "cible": {
+    }
+}
+]

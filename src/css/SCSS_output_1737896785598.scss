@@ -1,0 +1,64 @@
+```scss
+// Module :  [Nom du module]
+
+// Variables globales (si nécessaire)
+$primary-color: #007bff;
+
+// Mixins (si nécessaire)
+@mixin box-shadow($color, $offset: 0, $blur: 4, $spread: 0) {
+  box-shadow: $offset $offset $blur $spread $color;
+}
+
+// Components (structure de base des composants)
+.component-name {
+  // Style du composant
+  padding: 20px;
+  background-color: #f8f9fa;
+  @include box-shadow($primary-color, 2px, 4px);
+  // ...
+}
+
+// Utilities (classes utilitaires pour styles réutilisables)
+.text-center {
+  text-align: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+// Styles génériques (reset, typographie, etc.)
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+// ...
+
+```
+
+
+**Explication:**
+
+
+* **Commentaires:** Utilisez des commentaires pour documenter votre code SCSS. Expliquez clairement l'objectif de chaque section, variable, mixin et composant. 
+* **Variables:** Définissez les couleurs, polices, tailles, etc. dans des variables pour faciliter la réutilisation et la modification des styles.
+* **Mixins:** Créez des mixins pour les styles réutilisables, comme les boîtes d'ombre, les bordures ou les animations.
+* **Components:** Structurez votre code en composants distincts, chaque composant ayant son propre style et logique.
+* **Utilities:** Définissez des classes utilitaires pour des styles simples et réutilisables.
+* **Styles génériques:** Apportez des styles de base au corps du site, comme la police, la mise en page et les styles d'en-tête.
+* **Itération:** Remplacez les placeholders par des valeurs spécifiques à votre module et continuez à ajouter des composants, styles et fonctionnalités au fur et à mesure que le projet progresse.
+* **Syntaxe:** Assurez-vous de respecter la syntaxe SCSS, notamment l'utilisation des accolades `{}`, des points-virgules `;` et des noms de variables et de mixins en minuscules avec des traits de soulignement `_`.
+
+**Conseils supplémentaires:**
+
+* Utilisez un préprocesseur SCSS pour gérer les variables, les mixins et les fonctions de manière efficace.
+* Écrivez du code SCSS organisé et lisible, en utilisant des indentation et des commentaires clairs.
+* Testez et validez votre code SCSS régulièrement pour vous assurer qu'il fonctionne comme prévu.
+
+
+

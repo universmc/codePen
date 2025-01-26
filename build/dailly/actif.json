@@ -1,0 +1,28 @@
+{
+    "definition": "Un actif en finance est tout ce qui a de la valeur et qui peut être possédé, contrôlé et échangé. Il représente une ressource économique susceptible de générer des revenus ou des bénéfices futurs.",
+    "types": [
+        "Actifs réels",
+        "Actifs financiers"
+    ],
+    "exemples": {
+        "Actifs réels": [
+            "Immobilier",
+            "Biens d'équipement",
+            "Matières premières",
+            "Biens de consommation"
+        ],
+        "Actifs financiers": [
+            "Actions",
+            "Obligations",
+            "Fonds communs de placement",
+            "Cryptomonnaies",
+            "Dépôts bancaires"
+        ]
+    },
+    "caractéristiques": [
+        "Liquidité : facilité à convertir en espèces",
+        "Rentabilité : capacité à générer des revenus",
+        "Risque : probabilité de perte",
+        "Durée : période pendant laquelle l'actif est détenu"
+    ]
+}

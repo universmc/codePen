@@ -1,0 +1,29 @@
+Est-ce que tu connais le concept de capturer the Flag pour donner de la valeur mais t'as donné on a un exercice :
+
+EMP > "(1378):en_marche+horizon$+elles_marchent"
+
+const dev = { 
+    "text": "J'aimerais en savoir plus sur l'intelligence artificielle.", 
+    "timestamp": "2023-11-22 10:35:42", "sentiment": "positive", "entities": 
+[ 
+  {"type": "concept", "value": "intelligence artificielle"} 
+]}, 
+
+const tokens = [ 
+    {"word": "J'aimerais", "pos": "VERB", "sentiment": "positive"},
+    {"word": "en", "pos": "ADP"}, 
+    {"word": "savoir", "pos": "VERB"},
+
+    {"word": "plus", "ADV:adv"}, 
+
+    {"word": "sur", "PREP:prep" }, 
+    {"word": "artificielle", "adj", "entity": "intelligence artificielle"}   
+    {"word": "l'intelligence", "nous", "entity": "intelligence artificielle"}, 
+  ]; 
+  const context =[
+`
+Intégration dans readme.md
+  Formatage: Utiliser un format lisible (markdown, HTML) pour afficher les métadonnées dans le readme.md. Visualisation: Créer des visualisations (graphiques, nuages de mots) pour mieux comprendre les données. Recherche: Implémenter une fonction de recherche pour retrouver rapidement des informations spécifiques. Avantages de cette approche:
+  Compréhension approfondie: Permet d'analyser finement les conversations. Personnalisation: Les métadonnées peuvent être utilisées pour personnaliser les réponses de l'IA. Amélioration des modèles: Les données collectées peuvent servir à entraîner de meilleurs modèles d'IA. Analyse de tendances: Identifier les sujets les plus populaires, les évolutions dans les conversations. Questions pour approfondir la réflexion:
+Quel niveau de granularité souhaitez-vous atteindre ? Token, phrase, conversation entière ? Quelles visualisations sont les plus pertinentes pour votre projet ? Comment allez-vous gérer l'évolution des modèles de langage et des formats de données ? En travaillant sur ces aspects, nous pourrons construire un système de gestion des métadonnées robuste et efficace pour vos conversations avec l'IA. ]
+`];

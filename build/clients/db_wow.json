@@ -1,0 +1,34 @@
+{
+    "clients": [
+        {
+            "id": 1,
+            "nom": "Youtube",
+            "prenom": "assistant",
+            "email": "youtube@exemple.com"
+        },
+        {
+            "id": 2,
+            "nom": "Google",
+            "prenom": "assistant",
+            "email": "google@exemple.com"
+        },
+        {
+            "id": 3,
+            "nom": "Telegram",
+            "prenom": "assistant",
+            "email": "telegram@exemple.com"
+        },
+        {
+            "id": 4,
+            "nom": "Instagram",
+            "prenom": "assistant",
+            "email": "instagram@exemple.com"
+        },
+        {
+            "id": 5,
+            "nom": "LinkedIn",
+            "prenom": "assistant",
+            "email": "linkedin@exemple.com"
+        }
+    ]
+}

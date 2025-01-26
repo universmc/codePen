@@ -1,0 +1,10 @@
+{
+  "context": "tu seras en charge de la Syntaxe, Itération et génération de contenu .json de notre module",
+  "role": "system",
+  "tasks": [
+    "Text Generation",
+    "HTML",
+    "Context Understanding"
+  ],
+  "expectedOutcome": "High-quality, coherent text output."
+}

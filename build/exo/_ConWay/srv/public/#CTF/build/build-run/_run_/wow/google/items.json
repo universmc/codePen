@@ -1,0 +1,32 @@
+{
+    "OutilsGoogle": {
+      "Google Workspace": "Une suite d'outils de collaboration (Docs, Sheets, Slides, etc.) qui facilite le travail d'équipe et le partage de documents.",
+      "Google Cloud Platform": "Une plateforme de cloud computing offrant une grande variété de services (stockage, calcul, machine learning, etc.) pour développer et déployer des applications.",
+      "Google Analytics": "Un outil d'analyse web qui permet de mesurer les performances de votre site web et d'optimiser votre stratégie marketing.",
+      "Google Search Console": "Un outil qui vous aide à surveiller la présence de votre site web dans les résultats de recherche Google et à résoudre les problèmes techniques.",
+      "Google Ads": "Une plateforme publicitaire en ligne qui permet de créer et de gérer des campagnes publicitaires sur Google."
+    },
+    "EvolutionIA": {
+      "AutomatisationDesTaches": "L'IA peut automatiser des tâches répétitives comme la génération de rapports, la classification de données ou la traduction de documents.",
+      "AmeliorationDeLaRecherche": "L'IA peut rendre la recherche d'informations plus efficace en comprenant le contexte des requêtes et en proposant des résultats plus pertinents.",
+      "Personnalisation": "L'IA peut personnaliser l'expérience utilisateur en adaptant les interfaces et les fonctionnalités en fonction des besoins de chaque utilisateur.",
+      "AnalysePredictive": "L'IA peut analyser de grandes quantités de données pour identifier des tendances et faire des prévisions.",
+      "CreationDeContenu": "L'IA peut générer du contenu de haute qualité, comme des articles, des rapports ou des descriptions de produits."
+    },
+    "AideProposee": {
+      "Fonctionnalites": "Comprendre les fonctionnalités de ces outils.",
+      "Tutoriels": "Trouver des tutoriels et des exemples d'utilisation.",
+      "ProblemesTechniques": "Résoudre des problèmes techniques.",
+      "IdeesAmelioration": "Générer des idées pour améliorer votre utilisation de ces outils.",
+      "ContenuPersonnalise": "Créer du contenu personnalisé pour votre entreprise."
+    },
+    "ExempleConcret": {
+      "AmeliorationContenu": {
+        "AnalysePerformances": "Analyser les performances de vos contenus actuels avec Google Analytics.",
+        "IdentificationSujets": "Identifier les sujets les plus populaires grâce à Google Trends.",
+        "IdeesNouveauxArticles": "Générer des idées de nouveaux articles en fonction des mots-clés les plus recherchés.",
+        "RedactionBrouillons": "Rédiger des brouillons d'articles que vous pourrez ensuite personnaliser."
+      }
+    }
+  }
+  

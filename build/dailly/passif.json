@@ -1,0 +1,38 @@
+{
+    "revenu_passif": {
+      "definition": "Un revenu passif est un revenu généré par un actif sans nécessiter une activité régulière de la part de son propriétaire.",
+      "strategies": [
+        {
+          "nom": "Investissement immobilier",
+          "description": "Location de biens immobiliers (appartements, maisons, locaux commerciaux), SCPI, crowdfunding immobilier.",
+          "actifs": ["Immobilier"]
+        },
+        {
+          "nom": "Investissement boursier",
+          "description": "Achat d'actions, d'obligations, de fonds indiciels (ETF), de dividendes.",
+          "actifs": ["Actions", "Obligations", "Fonds communs de placement"]
+        },
+        {
+          "nom": "Création de produits numériques",
+          "description": "Vente de ebooks, de cours en ligne, de logiciels, de templates, de musiques, de photos, etc.",
+          "actifs": ["Produits numériques"]
+        },
+        {
+          "nom": "Création de contenu en ligne",
+          "description": "Monétisation de blogs, chaînes YouTube, podcasts via la publicité, l'affiliation, le sponsoring.",
+          "actifs": ["Contenu numérique"]
+        },
+        {
+          "nom": "Investissement dans les cryptomonnaies",
+          "description": "Achat de cryptomonnaies, staking, farming.",
+          "actifs": ["Cryptomonnaies"]
+        }
+      ],
+      "conseils": [{
+        "Diversification": "Répartir ses investissements sur différents actifs pour réduire le risque.",
+        "Patience": "Le revenu passif est souvent un projet de long terme.",
+        "Formation": "Se former aux différents types d'investissements avant de se lancer.",
+        "Suivi": "Suivre régulièrement ses investissements."
+    }]
+    }
+  }

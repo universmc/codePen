@@ -1,0 +1,16 @@
+{
+    "agentName": "MandartoryAi_bot",
+    "projectName": "Blockchain CVNU wallet -ia **Application d'évaluation des CV pilotée par l'IA",
+    "evaluationDate": "2023-03-17",
+    "projectSkills": ["Évaluation des CV", "Apprentissage automatique", "GAN", "Économie circulaire", "Blockchain", "Cryptomonnaie (PI.coin)"],
+    "agentSkills": ["Évaluation des CV", "Apprentissage automatique", "GAN", "Économie circulaire", "Blockchain", "Cryptomonnaie (PI.coin)"],
+    "skillMatch": 100,
+    "evaluationSummary": "MandartoryAi_bot possède un ensemble de compétences solides en intelligence artificielle et technologies connexes. Ses connaissances spécifiques en apprentissage automatique, économie circulaire et cryptomonnaie lui confèrent une grande valeur pour le développement et la réussite du projet GPT-Wallet.",
+    "agentPotential": {
+    "CV evaluation": "Faciliter l'évaluation des CV",
+    "Monetize work value": "Monétiser la valeur du travail",
+    "Secure transactions": "Garantir des transactions sécurisées avec la cryptomonnaie PI.coin",
+    "Stable value": "Garantir une valeur stable grâce à la cryptomonnaie PI.coin"
+    }
+    }
+    

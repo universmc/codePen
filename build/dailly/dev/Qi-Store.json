@@ -1,0 +1,19 @@
+{
+  "objectif_journalier": 68,
+  "taches": [
+    {
+      "id": 1,
+      "description": "Conception du module X",
+      "debut": "2023-11-20T09:00:00Z",
+      "fin": "2023-11-20T11:00:00Z",
+      "etat": "en cours",
+      "progression": 50,
+      "rappels": [
+        {
+          "message": "Réunion de suivi",
+          "timestamp": 1699999999
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+    "planning": [
+      {
+        "etape": 1,
+        "titre": "Initialisation du projet",
+        "objectif": "Mise en place de l’environnement de développement",
+        "debut": "2024-10-05T22:00:00Z",
+        "fin": "2024-10-05T23:00:00Z",
+        "prompt_text": "Initialisation du projet avec installation des dépendances",
+        "lien_fichier": "init_project.md"
+      },
+      {
+        "etape": 2,
+        "titre": "Structure du répertoire et lecture du répertoire racine",
+        "objectif": "Configuration du répertoire racine",
+        "debut": "2024-10-05T23:00:00Z",
+        "fin": "2024-10-06T00:00:00Z",
+        "prompt_text": "Extraction des informations du répertoire racine",
+        "lien_fichier": "repertoire_structure.md"
+      },
+      {
+        "etape": 3,
+        "titre": "Création du système d'inventaire",
+        "objectif": "Lire les fichiers et collecter les métadonnées",
+        "debut": "2024-10-06T00:00:00Z",
+        "fin": "2024-10-06T01:00:00Z",
+        "prompt_text": "Création du système d'inventaire",
+        "lien_fichier": "inventory_extraction.md"
+      },
+      {
+        "etape": 4,
+        "titre": "Classification automatique des fichiers",
+        "objectif": "Classer les fichiers par type",
+        "debut": "2024-10-06T01:00:00Z",
+        "fin": "2024-10-06T02:00:00Z",
+        "prompt_text": "Classification des fichiers de l'inventaire",
+        "lien_fichier": "classification_fichiers.md"
+      },
+      {
+        "etape": 5,
+        "titre": "Création de la fonction de recherche",
+        "objectif": "Fonction de recherche dans l'inventaire",
+        "debut": "2024-10-06T02:00:00Z",
+        "fin": "2024-10-06T03:00:00Z",
+        "prompt_text": "Implémentation de la fonction de recherche",
+        "lien_fichier": "recherche_inventaire.md"
+      },
+      {
+        "etape": 6,
+        "titre": "Génération du fichier JSON",
+        "objectif": "Stocker l'inventaire dans un fichier JSON",
+        "debut": "2024-10-06T03:00:00Z",
+        "fin": "2024-10-06T04:00:00Z",
+        "prompt_text": "Génération du fichier JSON de l'inventaire",
+        "lien_fichier": "store_inventory.json"
+      },
+      {
+        "etape": 7,
+        "titre": "Révision du script",
+        "objectif": "Révision finale des scripts",
+        "debut": "2024-10-06T04:00:00Z",
+        "fin": "2024-10-06T05:00:00Z",
+        "prompt_text": "Révision des scripts et de l'inventaire",
+        "lien_fichier": "revision_finale.md"
+      }
+    ]
+  }
+  

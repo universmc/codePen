@@ -1,0 +1,53 @@
+```scss
+// Définition du module
+
+$module-name: "MonModule"; // Nom du module
+
+// Variables globales
+
+$primary-color: #007BFF;   // Couleur principale
+$secondary-color: #6c757d; // Couleur secondaire
+
+// Mixins
+
+@mixin button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+// Générateurs de contenu
+
+@function generate-grid($columns) {
+  @return (
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    gap: 10px;
+  );
+}
+
+// Composants
+
+// Exemple de composant avec itération
+@for $i from 1 through 3 {
+  .item-#{$i} {
+    background-color: $secondary-color;
+    padding: 20px;
+    @include button;
+  }
+}
+
+```
+
+**Explications:**
+
+* Le code utilise des variables globales pour définir les couleurs principales et secondaires.
+* Des mixins sont définis pour encapsuler du code réutilisable, comme le style d'un bouton.
+* La fonction `generate-grid` permet de créer facilement des grilles de colonnes réutilisables.
+* L'exemple de composant `item` montre comment itérer sur un nombre de composants et les personnaliser. 
+
+
+

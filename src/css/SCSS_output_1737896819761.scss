@@ -1,0 +1,105 @@
+```scss
+// Base styles
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #f8f9fa;
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// Heading styles
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+// Button styles
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darken($primary-color, 5%);
+}
+
+// Responsive styles
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+
+```
+
+
+
+This is some basic SCSS code that provides a foundation for styling your web page.
+
+**Key Features:**
+
+* **Variables:** 
+  *  `$primary-color`, `$secondary-color`, `$background-color`: These variables store your color values, making it easy to change them throughout the project.
+
+* **Selectors:**
+  * `body`, `a`, `h1`, `h2`, `.btn`: These are CSS selectors that target specific HTML elements.
+
+* **Properties:**
+  * `font-family`, `margin`, `padding`, `color`, `background-color`, `border`, `border-radius`, `cursor`: These are CSS properties that define the appearance and behavior of the elements.
+
+* **Nesting:**
+  * SCSS allows nesting selectors, making the code more organized and readable. For example, styles for `h1` and `h2` are nested within the `body` selector.
+
+* **Media Queries:**
+  * `@media (max-width: 768px)`: This media query applies styles specifically to screens that are 768 pixels wide or smaller. This is useful for creating responsive designs.
+
+**How to Use:**
+
+1. **Create a SCSS File:**
+   Save this code as a `.scss` file (e.g., `styles.scss`).
+
+2. **Compile to CSS:**
+   Use a SCSS compiler (like Node-Sass or Dart Sass) to convert your `.scss` file into a `.css` file.
+
+3. **Link the CSS:**
+   In your HTML file, link to the generated `.css` file using the `<link>` tag:
+
+   ```html
+   <link rel="stylesheet" href="styles.css">
+   ```
+
+
+
+

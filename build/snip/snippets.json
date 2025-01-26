@@ -1,0 +1,21 @@
+{
+  "promptChaining": [
+    "Analyze customer feedback",
+    "Step 1: Refine and expand on the task: Analyze customer feedback",
+    "Step 2: Refine and expand on the task: Step 1: Refine and expand on the task: Analyze customer feedback",
+    "Step 3: Refine and expand on the task: Step 2: Refine and expand on the task: Step 1: Refine and expand on the task: Analyze customer feedback"
+  ],
+  "selfReflection": "Reflect on the quality of this response: \"This response addresses the main issues but lacks specific examples.\". Identify any ambiguities or areas to improve.",
+  "iterativeRefinement": [
+    "Initial prompt: Analyze customer feedback",
+    "Iteration 1: Review and improve the previous response. Consider any missing details.",
+    "Iteration 2: Review and improve the previous response. Consider any missing details.",
+    "Iteration 3: Review and improve the previous response. Consider any missing details."
+  ],
+  "recursivePrompting": [
+    "Explore the topic: Machine Learning in e-commerce",
+    "Level 1: Expand deeper into Machine Learning in e-commerce. Explore related subtopics.",
+    "Level 2: Expand deeper into Machine Learning in e-commerce. Explore related subtopics.",
+    "Level 3: Expand deeper into Machine Learning in e-commerce. Explore related subtopics."
+  ]
+}

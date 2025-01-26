@@ -1,0 +1,53 @@
+{   
+  "Budget": [
+  {
+    "date": "2025-12-31",
+    "chargeTotal": 501,
+    "loyer": 160,
+    "SAUR": 97,
+    "EDF": 104,
+    "credit": 150
+  }
+  ],
+  "bilan": {
+      "actif": {
+        "immobilisations": {
+          "immobilier": 100000,
+          "matériel": 20000
+        },
+        "créances": {
+          "clients": 5000
+        },
+        "stocks": 1000
+      },
+      "passif": {
+        "capitaux_propres": 120000,
+        "dettes": {
+          "banques": 30000
+        }
+      }
+  },
+  "comptes_resultats": [
+    {
+      "date": "2023-12-31",
+      "chiffre_affaires": 30000,
+      "produits": 30000,
+      "charges": 30000,
+      "resultat_net": 30000
+    }
+  ],
+  "budget_tresorerie": [
+    {
+      "mois": "janvier",
+      "entrees": 10000,
+      "sorties": 8000
+    }
+  ],
+  "Matrice_Gains": [
+    {
+      "mois": "janvier",
+      "entrees": 10000,
+      "sorties": 8000
+    }
+  ]
+}

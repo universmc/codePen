@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simulateur de Revenu Passif</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <canvas id="myChart"></canvas>
+    <p>Temps restant pour atteindre 100 π-coins : <span id="time-remaining"></span></p>
+
+    <script>
+    // Paramètres personnalisables
+    const REVENU_QUOTIDIEN = 100; // en π-coins
+    const DUREE_JOUR = 24 * 60 * 60; // en secondes
+    const INTERVALLE_MAJ = 1000; // en millisecondes
+
+    // Initialisations
+    const ctx = document.getElementById('myChart').getContext('2d');
+    const labels = [];
+    const data = [];
+    let timeRemaining = 0;
+    let totalCoins = 0;
+    let startTime = Date.now();
+
+    // Créer le graphique initial
+    const myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'π-coins',
+                data: data,
+                borderColor: 'rgb(75, 192, 192)',
+                fill: false
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+
+    // Fonction pour mettre à jour le graphique et le compteur
+    function updateChart() {
+        const currentTime = Date.now();
+        const elapsedTime = (currentTime - startTime) / 1000;
+        const coinsPerSecond = REVENU_QUOTIDIEN / DUREE_JOUR;
+        totalCoins += coinsPerSecond;
+        labels.push(elapsedTime);
+        data.push(totalCoins);
+
+        // Calcul du temps restant
+        timeRemaining = (REVENU_QUOTIDIEN - totalCoins) / coinsPerSecond;
+
+        // Mettre à jour le graphique
+        myChart.update();
+
+        // Mettre à jour l'affichage du temps restant
+        document.getElementById('time-remaining').textContent = ` ${Math.floor(timeRemaining / 60)} minutes et ${Math.round(timeRemaining % 60)} secondes`;
+    }
+
+    // Mettre à jour le graphique toutes les secondes
+    setInterval(updateChart, INTERVALLE_MAJ);
+    </script>
+</body>
+</html>

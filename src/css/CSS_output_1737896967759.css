@@ -1,0 +1,65 @@
+```css
+/* 
+  This is a basic CSS template 
+  You can add your own styles here
+*/
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* Main Content */
+main {
+  padding: 2rem;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Links */
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+}
+``` 
+
+**Explanation:**
+
+* **Basic Structure:** This CSS sets up a simple layout with a header, main content area, and paragraphs.
+* **Styling:** 
+    *  Sets a sans-serif font for readability.
+    * Uses a light gray background for the body.
+    * Makes the header dark gray with white text.
+    * Styles paragraphs for better readability with line height.
+    *  Styles links to be blue and underlines on hover.
+
+* **Responsiveness:** 
+    * The `@media` query adjusts the padding of the main content area for smaller screens (768px and below).
+
+
+
+Let me know if you'd like to add more specific styles or features!
