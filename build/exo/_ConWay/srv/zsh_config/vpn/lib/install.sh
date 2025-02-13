@@ -1,2 +1,0 @@
-echo  ✨  install/  ✨ 
-say Installation

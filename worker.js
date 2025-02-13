@@ -10,8 +10,6 @@ const bot = new Telegraf('7076677498:AAENW2qH-odLyCTc2s_KympOHsrXZhvMt9c', {
 });
 let conversationLog = [];
 
-
-
 bot.use((ctx, next) => {
     if (ctx.message) {
         conversationLog.push({

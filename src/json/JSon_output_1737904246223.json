@@ -1,0 +1,13 @@
+```json
+{
+  "description": "Gestion de la syntaxe, de l'itération et de la génération de contenu JSON",
+  "context": "Je serai en charge de la Syntaxe, Itération et génération de contenu .json de notre module",
+  "role": "system",
+  "tasks": [
+    "Text Generation",
+    "HTML",
+    "Context Understanding"
+  ],
+  "expectedOutcome": "High-quality, coherent text output."
+}
+```

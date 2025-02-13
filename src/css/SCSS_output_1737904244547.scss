@@ -1,0 +1,65 @@
+```scss
+// Variables
+
+$primary-color: #007bff;   // Exemple de variable
+$secondary-color: #6c757d; 
+
+// Mixins
+
+@mixin button {
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+// Styles
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.button {
+  @include button; 
+}
+
+.button:hover {
+  background-color: darken($primary-color, 10%);
+}
+```
+
+**Explication:**
+
+- **Variables:**  
+    - Définissent des valeurs réutilisables, comme des couleurs, des polices ou des dimensions.
+- **Mixins:** 
+    - S'apparentent à des fonctions CSS. Ils permettent de réutiliser des styles communs, comme dans le mixin `button`. 
+- **Styles:** 
+    - Définissent les styles pour des éléments HTML spécifiques, comme `.container`, `.header` et `.button`.
+
+**Points à retenir:**
+
+- **Indentation:**  L'indentation en SCSS est cruciale pour la structure et la lisibilité du code. 
+- **Réutilisation:** 
+    -  Utilisez des variables et des mixins pour réduire la répétition et améliorer la maintenabilité du code.
+- **Noms descriptifs:**
+    -  Choisissez des noms de variables et de classes qui sont clairs et précis.
+
+**Comment l'utiliser:**
+
+1. **Intégrer SCSS:**  Utilisez un préprocesseur SCSS comme `sass` ou `node-sass` pour transformer le code SCSS en CSS utilisable par votre navigateur.
+
+2. **Définir les styles:**  Modifiez les valeurs des variables, les mixins et les styles pour personnaliser le design de votre site Web.
+
+3. **Utiliser les styles:**  Appliquez les classes SCSS dans votre code HTML pour donner vie au design.
+
+
+

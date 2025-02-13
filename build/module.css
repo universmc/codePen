@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    display: none; /* Masque toutes les sections par défaut */
+}
+
+section:first-child {
+    display: block; /* Affiche la première section par défaut */
+}
+
+button {
+    margin: 10px;
+}
